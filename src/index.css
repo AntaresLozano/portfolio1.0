@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: monospace;
+}
+
+:root {
+    --background: #1d1d1d;
+    --font_color: #ece8f7;
+    --font_color_lither: #dedede;
+    --active_color: #c1f1f9;
+    --black_lither: #2f2f2f;
+    /* --background-banner: #1b1f35; */
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: var(--font_color);
+}
+

@@ -1,0 +1,35 @@
+.portfolio-container {
+    width: 100vw;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.portfolio-container>h1 {
+    font-size: 2.8rem;
+}
+
+.icon {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* .proyects_container{
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .portfolio-container>h1 {
+        font-size: 2rem;
+    }
+}
