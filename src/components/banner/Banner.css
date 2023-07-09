@@ -124,14 +124,11 @@ main {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-    header {
-        height: 147px;
-    }
 
-    .banner-container {
+    /* .banner-container {
         position: relative;
         height: calc(100vh - 483px);
-    }
+    } */
 
     .text-container {
         z-index: 100;
@@ -142,23 +139,16 @@ main {
 
     .text-container>h1 {
         font-size: 4rem;
+        margin-bottom: 0;
     }
 
-    .header-container {
+    /* .header-container {
         flex-direction: column;
         flex-wrap: wrap;
         gap: 20px;
         align-content: center;
         position: relative;
-    }
-
-    #downloadcv {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        padding: 8px;
-    }
-
+    } */
     .logo {
         position: absolute;
         left: 15px;
@@ -183,6 +173,7 @@ main {
     .photo-container {
         left: 40%;
         top: 15px;
+
     }
 
     #mail>span {
@@ -198,4 +189,11 @@ main {
         height: 53vh;
     }
 
+    .redes {
+        margin-top: 20px;
+    }
+
+    main{
+        height: 413px;
+    }
 }

@@ -107,13 +107,13 @@ header {
 
 @media (min-width: 320px) and (max-width: 768px) {
     header {
-        height: 147px;
+        height: 120px;
     }
 
-    .banner-container {
+    /* .banner-container {
         position: relative;
         height: calc(100vh - 483px);
-    }
+    } */
 
     .text-container {
         z-index: 100;
@@ -122,9 +122,10 @@ header {
         padding: 20px 0 0 20px;
     }
 
-    .text-container>h1 {
+    /* .text-container>h1 {
         font-size: 4rem;
-    }
+        margin-bottom: 0px;
+    } */
 
     .header-container {
         flex-direction: column;
@@ -136,7 +137,7 @@ header {
 
     #downloadcv {
         position: absolute;
-        right: 15px;
+        right: -10px;
         top: 15px;
         padding: 8px;
     }
@@ -150,6 +151,7 @@ header {
         flex-wrap: wrap;
         flex-direction: column;
         margin-left: 30px;
+        font-size: 1.3rem;
     }
 
     .title-container>h2 {

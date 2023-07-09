@@ -10,8 +10,7 @@
     grid-auto-rows: 235px;
     grid-column-gap: 15px;
     grid-row-gap: 70px;
-
-
+    margin-bottom: 50px;
 }
 
 .proyect {
@@ -50,7 +49,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .container{
+    .container {
         grid-template-columns: repeat(1, 1fr);
         width: 80%;
     }
