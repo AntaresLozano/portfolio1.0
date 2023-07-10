@@ -49,7 +49,7 @@ const Navbar = () => {
 
     return (
         <header>
-            <div className="header-container">
+            <div className="header-container" id='header-container'>
                 <div className="logo">
                     <a href="/">
                         <img src={logo} alt="logo" />

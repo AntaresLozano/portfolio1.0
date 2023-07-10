@@ -78,7 +78,7 @@
 }
 
 #in-solid:hover {
-    transform: scaleY(10) scaleX(15);
+    transform: scaleY(10) scaleX(20);
     border-radius: 1%;
     animation-play-state: paused;
     /* animation-name: showSomething; */
@@ -91,8 +91,19 @@
 #in-solid:hover img {
     display: block;
     transform: scale(0.95, 1.4);
-    /* transform: scaleX(0.8); */
-    transition-timing-function: ease-in
+    transition-timing-function: ease-in;
+    overflow: hidden;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #in-solid:hover img {
+        display: block;
+        transform: scale(0.8,1);
+        /* transform: scaleX(0.8); */
+        transition-timing-function: ease-in;
+        max-width: 100vw;
+    }
 }
 
 .stop:hover #wave {
