@@ -93,3 +93,30 @@
 .footer_space>button>span {
     font-size: 1.2rem;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .footer_container{
+        flex-direction: column;
+        align-items: center;
+        height: 40vh;
+        justify-content: space-around;
+    }
+    .footer-social-icon{
+        min-width: 50px;
+    }
+    .footer_space_logo>a{
+        width: 100px;
+    }
+
+    .footer_space{
+        width: 100%;
+    }
+
+    .footer_space_logo>p{
+        text-align: center;
+    }
+    /* .footer_logo{
+        width: 200px;
+    } */
+
+}

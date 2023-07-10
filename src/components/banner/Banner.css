@@ -35,6 +35,17 @@ main {
     line-height: 5rem;
     color: var(--font_color);
     margin-bottom: 40px;
+    position: relative;
+}
+
+h1 span {
+    position: absolute;
+    right: 135px;
+    top: 0;
+    width: 0;
+    font-size: 5rem;
+    border-left: solid 5px white;
+    background-color: var(--font_color);
 }
 
 #mail {
@@ -193,7 +204,7 @@ main {
         margin-top: 20px;
     }
 
-    main{
+    main {
         height: 413px;
     }
 }
