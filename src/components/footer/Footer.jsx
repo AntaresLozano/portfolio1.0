@@ -23,7 +23,7 @@ function Footer() {
                 <p>Antares Lozano</p>
             </div>
             <div className="footer_space">
-                <button><span>Contact me</span></button>
+                <button><a href="mailto:antaresdevsign@gmail.com?subject=Requiero tus servicios de desarrollo web"><span>Contact me</span></a></button>
             </div>
         </div>
     )

@@ -90,7 +90,12 @@
     transition: 0.5s;
 }
 
-.footer_space>button>span {
+.footer_space>button>a{
+    color: var(--font_color);
+    padding: 15px 25px;
+}
+
+.footer_space>button>a>span {
     font-size: 1.2rem;
 }
 
