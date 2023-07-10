@@ -10,7 +10,6 @@
 .footer_space {
     width: 30%;
     height: 100%;
-    /* background-color: aliceblue;  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +42,6 @@
 .footer_space_logo {
     width: 30%;
     height: 100%;
-    /* background-color: aliceblue;  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,6 +83,11 @@
     cursor: pointer;
 }
 
+.footer_space>button>a:hover {
+    color: var(--active_color);
+    cursor: pointer;
+}
+
 .footer_space>button:not(hover) {
     transform: translateY(0);
     transition: 0.5s;
@@ -120,8 +123,5 @@
     .footer_space_logo>p{
         text-align: center;
     }
-    /* .footer_logo{
-        width: 200px;
-    } */
 
 }
