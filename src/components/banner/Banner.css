@@ -68,6 +68,19 @@ h1 span {
     height: 100%;
     border-bottom: 2px solid var(--active_color);
     clip-path: polygon(0% 10%, 100% 0%, 100% 95%, 0% 100%);
+    animation-name: loadingMail;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+@keyframes loadingMail {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }
 
 .redes {
