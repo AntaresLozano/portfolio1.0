@@ -1,4 +1,4 @@
-import '../background/background.css'
+import '../background/Background.css'
 import skill from '../../assets/img/creative.png'
 import mobile from '../../assets/img/creative_mobile.png'
 import { useState } from 'react';
